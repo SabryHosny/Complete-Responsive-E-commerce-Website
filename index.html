@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cool Shop | By SabryHosny</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Colo Shop Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- font Awesome Cdn -->
+  <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
+  <!-- swipper -->
+  <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+
+  <!-- Bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- Owl Carousel File -->
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+
+<body>
+  <div class="super_container">
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="fas fa-arrow-circle-up"></i>
+    </a>
+
+    <!--========================== Header & NAVIGATION ===========================-->
+    <header class="header">
+      <div class="container header-content">
+        <a href="#" class="logo">cool<span>shop</span>
+        </a>
+
+        <nav class="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">home</a></li>
+            <li class="nav__item"><a href="#arrivals" class="nav__link">shop</a></li>
+            <li class="nav__item"><a href="#weak_deal" class="nav__link">promotion</a></li>
+            <li class="nav__item"><a href="#best_seller" class="nav__link">pages</a></li>
+            <li class="nav__item"><a href="#lastest_blogs" class="nav__link">blog</a></li>
+            <li class="nav__item"><a href="#footer" class="nav__link">contact</a></li>
+
+            <i class="fas fa-times close_nav_list_icon"></i>
+          </ul>
+
+          <div class="nav__icons">
+            <a href="#" class="nav__icons-link search-icon"><i class="fas fa-search"></i></a>
+            <a href="#" class="nav__icons-link profile-icon"><i class="fas fa-user"></i></a>
+            <a href="#" class="nav__icons-link cart-icon">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-number">2</span>
+            </a>
+          </div>
+
+          <i class="fas fa-bars show_nav_list_icon"></i>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <!--========================== HOME ===========================-->
+    <div id="home" class="home swiper-container mySwiper">
+      <div class="home__header swiper-wrapper">
+        <!------------------ slide 1 ------------------->
+        <div class="home__header-cover swiper-slide">
+          <img src="images/slider_1.jpg" alt="">
+
+          <div class=" home__header-content container">
+            <p class="home__header-subtitle">spring / summer collection 2021</p>
+            <h1 class="home__header-title">Get up to 30% off <br> New Arrivals</h1>
+            <a class="home__header-btn" href="#">shop now</a>
+          </div>
+        </div>
+        <!------------------ slide 2 ------------------->
+        <div class="home__header-cover swiper-slide">
+          <img src="images/slider_2.jpg" alt="">
+
+          <div class=" home__header-content container">
+            <p class="home__header-subtitle">spring / summer collection 2021</p>
+            <h1 class="home__header-title">Get up to 30% off <br> New Arrivals</h1>
+            <a class="home__header-btn" href="#">shop now</a>
+          </div>
+        </div>
+        <!------------------ slide 3 ------------------->
+        <div class="home__header-cover swiper-slide">
+          <img src="images/slider_3.jpg" alt="">
+
+          <div class=" home__header-content container">
+            <p class="home__header-subtitle">spring / summer collection 2021</p>
+            <h1 class="home__header-title">Get up to 30% off <br> New Arrivals</h1>
+            <a class="home__header-btn" href="#">shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== MIAN CARTEGORIES ===========================-->
+    <div class="main_cats section">
+      <div class="main_cats_cards container">
+        <div class="main_cats-card">
+          <img src="images/blog_3.jpg" alt="">
+          <a href="#" class="main_cats-btn">Accessories's</a>
+        </div>
+
+        <div class="main_cats-card">
+          <img src="images/banner_2.jpg" alt="">
+          <a href="#" class="main_cats-btn">Women's</a>
+        </div>
+
+        <div class="main_cats-card">
+          <img src="images/banner_3.jpg" alt="">
+          <a href="#" class="main_cats-btn">Men's</a>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== NEW ARRIVALS ===========================-->
+    <div id="arrivals" class="arrivals section">
+      <h2 class="section-header">new arrivals</h2>
+      <div class="section-content container">
+        <div class="shuffle-btns">
+          <button class="shuffle-btn" id="filter-all">All</button>
+          <button class="shuffle-btn" id='filter-women'>Women's</button>
+          <button class="shuffle-btn" id="filter-acc">Accessories's</button>
+          <button class="shuffle-btn" id="filter-men">Men's</button>
+        </div>
+
+        <!------------------ NEW ARRIVALS CARDS ------------------->
+        <div class="container">
+          <div class="shuffelled-container">
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-men">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_1.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-men">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_9.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-women">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_7.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-acc">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_4.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-acc">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_8.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-women">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_3.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-acc">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_6.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-men">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_10.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-acc">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_5.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+            <!------------------ NEW ARRIVALS CARD ------------------->
+            <div class="card cat-men">
+              <div class="card_content">
+                <div class="card_img">
+                  <img src="images/product_2.png" alt="">
+                </div>
+
+                <div class="card_desc">
+                  <p>Men'S Solid Slim Fit Casual Shirt</p>
+                  <span class="price price_new">$ 520.00</span>
+                  <span class="price price_old">$ 590.00</span>
+                </div>
+              </div>
+
+              <a href="" class="card_btn">Add To Cart</a>
+
+              <div class="card_tags">
+                <span class="card_tag card_new_tag">new</span>
+                <span class="card_tag card_offer_tag">-$20</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--========================== DEAL OF THE WEEK ===========================-->
+    <div id="weak_deal" class="weak_deal section">
+      <div class="weak_deal_container container">
+        <div class="weak_deal_img">
+          <img src="images/deal_ofthe_week.png" alt="">
+        </div>
+        <div class="weak_deal_content">
+          <h2 class="weak_deal_header section-header">deal of the week</h2>
+          <div class="weak_deal-timer">
+            <div class="timer_data">
+              <h1 class="timer_data_h1" id="timer_data-day">2</h1>
+              <h6 class="timer_data_h6">day</h6>
+            </div>
+            <div class="timer_data">
+              <h1 class="timer_data_h1" id="timer_data-hour">23</h1>
+              <h6 class="timer_data_h6">hours</h6>
+            </div>
+            <div class="timer_data">
+              <h1 class="timer_data_h1" id="timer_data-min">57</h1>
+              <h6 class="timer_data_h6">min</h6>
+            </div>
+            <div class="timer_data">
+              <h1 class="timer_data_h1" id="timer_data-sec">48</h1>
+              <h6 class="timer_data_h6">sec</h6>
+            </div>
+          </div>
+          <a href="" class="weak_deal_btn btn_a">shop now</a>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== BEST SELLER ===========================-->
+    <div id="best_seller" class="best_seller section">
+      <h2 class="best_seller_header section-header">best sellers</h2>
+      <div class="best_seller_container container swiper-container">
+        <!------------------ BEST SELLER CARDS CONTAINER ------------------->
+        <div class="best_seller_cards swiper-wrapper">
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+          <!------------------ BEST SELLER CARD ------------------->
+          <div class="card swiper-slide">
+            <div class="card_content">
+              <div class="card_img">
+                <img src="images/product_1.png" alt="">
+              </div>
+
+              <div class="card_desc">
+                <p>Men'S Solid Slim Fit Casual Shirt</p>
+                <span class="price price_new">$ 520.00</span>
+                <span class="price price_old">$ 590.00</span>
+              </div>
+            </div>
+
+            <a href="" class="card_btn">Add To Cart</a>
+
+            <div class="card_tags">
+              <span class="card_tag card_new_tag">new</span>
+              <span class="card_tag card_offer_tag">-$20</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!--========================== BENEFITS ===========================-->
+    <div class="benefits section">
+      <div class="benefits_container container">
+        <!------------------ BENEFIT------------------->
+        <div class="benefit">
+          <i class="fas fa-truck benefit_icon"></i>
+          <div class="benefit_data">
+            <h4 class="benefit_title">free shipping</h4>
+            <p class="benefit_desc">suffered alternation on same form</p>
+          </div>
+        </div>
+        <!------------------ BENEFIT------------------->
+        <div class="benefit">
+          <i class="fas fa-money-bill-alt benefit_icon"></i>
+          <div class="benefit_data">
+            <h4 class="benefit_title">cash on delivery</h4>
+            <p class="benefit_desc">the internet trend to depeat</p>
+          </div>
+        </div>
+        <!------------------ BENEFIT------------------->
+        <div class="benefit">
+          <i class="fas fa-redo benefit_icon"></i>
+          <div class="benefit_data">
+            <h4 class="benefit_title">45 days return</h4>
+            <p class="benefit_desc">smaking it look like readable</p>
+          </div>
+        </div>
+        <!------------------ BENEFIT------------------->
+        <div class="benefit">
+          <i class="fas fa-clock benefit_icon"></i>
+          <div class="benefit_data">
+            <h4 class="benefit_title">openning all week</h4>
+            <p class="benefit_desc time">8 am - 9 pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== LATEST BLOGS ===========================-->
+    <div id="lastest_blogs" class="lastest_blogs section">
+      <h2 class="section-header">latest blogs</h2>
+      <div class="lastest_blogs_container container">
+        <!------------------ LASTEST BLOGS CARD ------------------->
+        <div class="lastest_blogs_card">
+          <img src="images/banner_2.jpg" alt="" class="lastest_blogs_card-img">
+          <div class="lastest_blogs_card-info">
+            <h4 class="lastest_blogs_card-header">here are the trends i see coming this fall</h4>
+            <div class="lastest_blogs_card-data">
+              <span class="lastest_blogs_card-auther">By Admin | </span>
+              <span class="lastest_blogs_card-date">may 01, 2020</span>
+            </div>
+            <button class="lastest_blogs_card-btn">Read more</button>
+          </div>
+        </div>
+
+        <!------------------ LASTEST BLOGS CARD ------------------->
+        <div class="lastest_blogs_card">
+          <img src="images/blog_2.jpg" alt="" class="lastest_blogs_card-img">
+          <div class="lastest_blogs_card-info">
+            <h4 class="lastest_blogs_card-header">here are the trends i see coming this fall</h4>
+            <div class="lastest_blogs_card-data">
+              <span class="lastest_blogs_card-auther">By Admin | </span>
+              <span class="lastest_blogs_card-date">may 01, 2020</span>
+            </div>
+            <button class="lastest_blogs_card-btn">Read more</button>
+          </div>
+        </div>
+
+        <!------------------ LASTEST BLOGS CARD ------------------->
+        <div class="lastest_blogs_card">
+          <img src="images/blog_3.jpg" alt="" class="lastest_blogs_card-img">
+          <div class="lastest_blogs_card-info">
+            <h4 class="lastest_blogs_card-header">here are the trends i see coming this fall</h4>
+            <div class="lastest_blogs_card-data">
+              <span class="lastest_blogs_card-auther">By Admin | </span>
+              <span class="lastest_blogs_card-date">may 01, 2020</span>
+            </div>
+            <button class="lastest_blogs_card-btn">Read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== NEWS LETTER ===========================-->
+    <div class="newsletter section">
+      <div class="newsletter_container container">
+        <div class="newsletter_data">
+          <h4 class="newsletter-title">Newsletter</h4>
+          <p class="newsletter-description">Subscribe to our newsletter and get 20% off your first purchase</p>
+        </div>
+        <form class="newsletter-form" action="">
+          <input class="newsletter-email" type="email" name="" id="" placeholder="Your email">
+          <button class="btn_a">subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!--========================== FOOTER ===========================-->
+    <footer id="footer" class="footer section">
+      <div class="footer-contianer container">
+        <div class="footer_data">
+          <ul class="footer_list">
+            <li class="footer_item"><a href="#" class="footer_link">Blog</a></li>
+            <li class="footer_item"><a href="#" class="footer_link">FAQs</a></li>
+            <li class="footer_item"><a href="#" class="footer_link">Contact us</a></li>
+          </ul>
+          <div class="footer_social">
+            <a href="#" target="_balnk" class="footer_social_link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_balnk" class="footer_social_link"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_balnk" class="footer_social_link"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_balnk" class="footer_social_link"><i class="fab fa-skype"></i></a>
+            <a href="#" target="_balnk" class="footer_social_link"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <p class="footer_rights">
+          <i class="far fa-copyright"></i>
+          2021 all rights reserved. this template is made with <i class="fas fa-heartbeat"></i> by
+          <span>SabryHosny</span>
+        </p>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+  <!-- Slider -->
+
+
+  <!-- Banner -->
+
+
+  <!-- New Arrivals -->
+
+
+
+  <!-- Deal of the week -->
+
+
+
+  <!-- Benefit -->
+
+
+  <!-- Blogs -->
+
+
+  <!-- Newsletter -->
+
+
+  <!-- Footer -->
+
+
+  <!-- jquery JS File -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!-- swipper -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script> -->
+  <!-- Isotope JS File -->
+  <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+  <!-- Owl Carousel JS File -->
+  <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <!-- Javascript File -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
