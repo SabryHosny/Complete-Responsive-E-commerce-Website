@@ -22,5 +22,4 @@
 https://sabryhosny.github.io/Complete-Responsive-E-commerce-Website/
 
 ![Complete Responsive Ecommerce Website](/preview.png)
-![Complete Responsive Ecommerce Website](/preview2.png)
 
