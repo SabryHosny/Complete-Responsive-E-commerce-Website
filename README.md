@@ -21,5 +21,7 @@
 #### See live link:
 https://sabryhosny.github.io/Complete-Responsive-E-commerce-Website/
 
-![Complete Responsive Ecommerce Website](/preview.png)
+![Complete Responsive Ecommerce Website](/preview_mix.png)
+
+
 
